@@ -251,11 +251,17 @@ button {
 }
 .strenghts-item {
   width: 264px;
+  height: 112px;
 }
 .strenghts-item:not(:last-child) {
   margin-right: 24px;
 }
-
+.strenghts-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
 .strenghts-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -356,6 +362,9 @@ button {
   gap: 24px;
 }
 .customers-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
