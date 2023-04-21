@@ -419,6 +419,8 @@ button {
   background-color: var(--ocean);
 }
 .socials-icon {
+  width: 16px;
+  height: 16px;
   fill: var(--cloud);
 }
 /* Footer styles */
