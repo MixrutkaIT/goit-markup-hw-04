@@ -98,6 +98,7 @@ img {
 }
 
 button {
+  display: block;
   font-family: inherit;
   color: currentColor;
   cursor: pointer;
@@ -497,6 +498,9 @@ color: var(--white);
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+.portfolio-link {
+  display: block;
 }
 .btn-list {
   display: flex;
