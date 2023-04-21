@@ -346,12 +346,12 @@ button {
   color: var(--slate);
 }
 .customers {
-  padding-bottom: 120px;
+  padding: 120px 0px;
 }
 .customers-title {
   margin: 0px auto 72px;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -365,7 +365,7 @@ button {
 .customers-item {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-it : center;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
