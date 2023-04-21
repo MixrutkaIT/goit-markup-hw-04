@@ -365,7 +365,9 @@ button {
 .customers-item {
   display: flex;
   justify-content: center;
-  align-it : center;
+  align-items : center;
+  width: calc((100% - 120px) / 6);
+  height: 88px;
   border: 1px solid var(--light-slate);
   border-radius: 4px;
 }
@@ -377,10 +379,19 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+.customers-link:hover,
+.customers-link:focus {
+  border-color: var(--ocean);
+  color: var(--ocean);
 }
 .customers-icon {
+  width: 104px;
+  height: 56px;
   fill: var(--light-slate);
 }
 .customers-icon:hover,
@@ -407,8 +418,6 @@ button {
   background-color: var(--ocean);
 }
 .socials-icon {
-  width: 16px;
-  height: 16px;
   fill: var(--cloud);
 }
 /* Footer styles */
@@ -417,7 +426,10 @@ button {
   padding: 100px 0px;
   background-color: var(--navy-blue);
 }
-
+.footer-container {
+  display: flex;
+  align-items: baseline
+}
 .footer-list {
   display: flex;
 }
