@@ -326,7 +326,7 @@ button {
 .team-card {
   width: 264px;
   text-align: center;
-  padding: 32px 16px;
+  padding: 32px 0px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -407,6 +407,8 @@ button {
   background-color: var(--ocean);
 }
 .socials-icon {
+  width: 16px;
+  height: 16px;
   fill: var(--cloud);
 }
 /* Footer styles */
