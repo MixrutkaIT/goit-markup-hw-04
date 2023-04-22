@@ -67,8 +67,8 @@
   padding-left: 15px;
   align-items: center;
 
-  outline: 1px solid red;
-  outline-offset: -2px;
+  /*outline: 1px solid red;
+  outline-offset: -2px;*/
 }
 .visually-hidden {
   position: absolute;
@@ -247,6 +247,7 @@ button {
 }
 .strenghts {
   padding: 120px 0px;
+  margin-bottom: 120px;
 }
 .strenghts-list {
   display: flex;
@@ -264,7 +265,7 @@ button {
     height: 64px;
 }
 .strenghts-icon-container {
-  display: flex;/*bbbb*/
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 264px;
