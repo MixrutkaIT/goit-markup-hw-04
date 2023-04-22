@@ -482,9 +482,6 @@ button {
   display: flex;
   align-items: baseline
 }
-.footer-logo-container {
-  margin-right: 120px;
-}
 .footer-list {
   display: flex;
 }
@@ -540,15 +537,15 @@ button {
   letter-spacing: 0.02em;
 }
 .footer-title {
-width: 96px;
-margin-bottom: 16px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--white);
+  width: 96px;
+  margin-bottom: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
 }
 
 /* Portfolio */
@@ -558,6 +555,7 @@ color: var(--white);
   color: var(--slate);
   background-color: var(--white);
 }
+
 .portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
