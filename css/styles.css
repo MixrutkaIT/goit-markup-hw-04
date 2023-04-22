@@ -250,13 +250,11 @@ button {
 }
 .strenghts-list {
   display: flex;
+  gap: 24px;
 }
 .strenghts-item {
   width: 264px;
   height: 112px;
-}
-.strenghts-item:not(:last-child) {
-  margin-right: 24px;
 }
 .strenghts-icon {
     display: block;
@@ -416,6 +414,11 @@ button {
   padding: 0px;
   gap: 24px;
 }
+.team-socials-list {
+  display: flex;
+  gap: 24px;
+
+}
 .socials-link {
   display: flex;
   justify-content: center;
@@ -429,7 +432,44 @@ button {
 .socials-link:focus {
   background-color: var(--ocean);
 }
+.socials-item {
+  width: 40px; 
+  height: 40px;
+}
+.team-socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  gap: 24px;
+}
+.team-socials-item {
+  width: 40px;
+  height: 40px;
+}
+.team-socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+.team-socials-link:hover,
+.team-socials-link:focus {
+  background-color: var(--ocean);
+}
+.team-socials-icon {
+  width: 16px;
+  height: 16px;
+  fill: var(--cloud);
+}
 .socials-icon {
+  width: 16px;
+  height: 16px;
   fill: var(--cloud);
 }
 /* Footer styles */
@@ -442,8 +482,15 @@ button {
   display: flex;
   align-items: baseline
 }
+.footer-logo-container {
+  margin-right: 120px;
+}
 .footer-list {
   display: flex;
+}
+.footer-socials-item {
+  width: 40px; 
+  height: 40px;
 }
 .footer-socials-list {
   display: flex;
@@ -453,16 +500,20 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 100%;
+  height: 100%;
   background-color: var(--iris);
   border-radius: 50%;
 }
 .footer-socials-link:hover,
-.gooter-socials-link:focus {
+.footer-socials-link:focus {
   background-color: var(--green);
 }
-  
+.footer-socials-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--cloud);
+}
 
 .footer-item-socials {
   margin-left: 120px;
@@ -489,6 +540,7 @@ button {
   letter-spacing: 0.02em;
 }
 .footer-title {
+width: 96px;
 margin-bottom: 16px;
 font-family: 'Roboto';
 font-style: normal;
