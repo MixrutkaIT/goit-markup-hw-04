@@ -262,7 +262,18 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 24px;
+    width: 64px;
+    height: 64px;
+}
+.strenghts-icon-container {
+  display: flex;/*bbbb*/
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  background-color: var(--cloud);
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 .strenghts-title {
   margin-bottom: 8px;
@@ -419,8 +430,6 @@ button {
   background-color: var(--ocean);
 }
 .socials-icon {
-  width: 16px;
-  height: 16px;
   fill: var(--cloud);
 }
 /* Footer styles */
