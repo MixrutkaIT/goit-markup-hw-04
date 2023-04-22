@@ -482,6 +482,11 @@ button {
   display: flex;
   align-items: baseline
 }
+.footer-logo-container {
+  width: 279px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .footer-list {
   display: flex;
 }
@@ -535,6 +540,11 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.footer-socials-container {
+  margin-left: 120px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 .footer-title {
   width: 96px;
