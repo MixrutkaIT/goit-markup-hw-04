@@ -247,7 +247,6 @@ button {
 }
 .strenghts {
   padding: 120px 0px;
-  margin-bottom: 120px;
 }
 .strenghts-list {
   display: flex;
@@ -255,20 +254,11 @@ button {
 }
 .strenghts-item {
   width: 264px;
-  height: 112px;
-}
-.strenghts-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 64px;
-    height: 64px;
 }
 .strenghts-icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 264px;
   height: 112px;
   background-color: var(--cloud);
   border-radius: 4px;
@@ -380,10 +370,6 @@ button {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
-.customers-item:hover,
-.customers-item:focus {
-  border: 1px solid var(--ocean);
-}
 .customers-link {
   display: flex;
   justify-content: center;
@@ -483,9 +469,7 @@ button {
   align-items: baseline
 }
 .footer-logo-container {
-  width: 279px;
-  padding-right: 0px;
-  padding-left: 0px;
+  width: 264px;
   margin-right: 120px;
 }
 .footer-list {
@@ -547,9 +531,7 @@ button {
   padding-left: 0px;
 }
 .footer-title {
-  width: 96px;
   margin-bottom: 16px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
